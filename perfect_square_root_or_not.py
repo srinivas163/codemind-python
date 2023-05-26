@@ -1,8 +1,7 @@
-import math
-x=int(input())
-s=math.sqrt(x)
-y=(s-math.floor(s))
-if y==0:
-    print("True")
+n = int(input())
+for i in range(n):
+    if i*i==n:
+        print(True)
+        break
 else:
-    print("False")
+    print(False)
