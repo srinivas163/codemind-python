@@ -9,6 +9,7 @@ def pr(a):
         return True
 n = int(input())
 m = int(input())
+c = 0
 for i in range(n,m+1):
     if pr(i):
-        print(i)
+       print(i)
