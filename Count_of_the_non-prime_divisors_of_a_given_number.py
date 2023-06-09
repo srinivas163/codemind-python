@@ -7,9 +7,9 @@ def pr(a):
             if a%i==0:
                 return False
         return True
-n = int(input())
+m = int(input())
 c = 0
-for i in range(1,n+1):
-    if n%i == 0 and pr(i) == False:
+for i in range(1,m+1):
+    if m%i==0 and pr(i)==False:
         c+=1
 print(c)
