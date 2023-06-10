@@ -1,0 +1,7 @@
+s = input()
+l = list(s.replace(" ",""))
+m = min(l)
+n = max(l)
+a = l.count(m)
+b = l.count(n)
+print(m,a,n,b)
